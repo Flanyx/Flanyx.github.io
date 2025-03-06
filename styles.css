@@ -6,6 +6,7 @@ body
   padding: 0
   height: 2500px;
   min-width: 320px;
+  max-width: 600px;
 }
 
 .wrapper {
