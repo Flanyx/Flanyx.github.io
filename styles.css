@@ -2,6 +2,8 @@ body
 {
   font-size: 0pt;
   overflow: hidden;
+  margin: 0;
+  padding: 0
 }
 
 .wrapper {
