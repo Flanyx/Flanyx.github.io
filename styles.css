@@ -86,7 +86,7 @@ body
   border-top-right-radius: 35px;
   height: 2500px;
   width: 360px;
-  display: flex;
+  display: inline
 }
 .png{
   margin-left: 9px;
@@ -103,4 +103,64 @@ body
   height: 140px;
   position: fixed;
   border-radius: 25px;
+}
+.menu1{
+  width: 355px;
+  height: 169px;
+  display: flex;
+}
+.tg{
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  border: 1px solid Grey;
+}
+.donate{
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  border: 1px solid Grey;
+}
+.donate img {
+  min-height: 160px;
+  min-width: 160px;
+  width: 160px;
+  height: 160px;
+  position: fixed;
+  border-radius: 25px;
+}
+
+.menu2{
+  width: 355px;
+  height: 145px;
+  display: flex;
+}
+
+.png2{
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  border: 1px solid Grey;
+}
+.png2 img {
+  min-height: 160px;
+  min-width: 160px;
+  width: 160px;
+  height: 160px;
+  position: fixed;
+  border-radius: 25px;
+}
+.project{
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 160px;
+  height: 160px;
+  border-radius: 25px;
+  border: 1px solid Grey;
 }
