@@ -72,6 +72,7 @@ body
   width: 150px;
   border-radius: 15px;
   display: inline
+  text-decoration:none;
 }
 
 .knopka1{
@@ -81,6 +82,7 @@ body
   width: 150px;
   border-radius: 15px;
   display: inline
+  text-decoration:none;
 }
 .main2{
   background-color: #FFFFFF;
@@ -211,7 +213,7 @@ body
   position: fixed;
 }
 .text3{
-  margin-left: 35px;
+  margin-left: 38px;
   font-size: 15px;
   color: rgb(0, 122, 255);
 }
@@ -233,4 +235,9 @@ body
   font-size: 15px;
   color: rgb(0, 122, 255);
 }
+a {
+    text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
 
