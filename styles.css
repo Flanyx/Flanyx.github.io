@@ -71,6 +71,7 @@ body
   height: 55px;
   width: 150px;
   border-radius: 15px;
+  display: inline
 }
 
 .knopka1{
@@ -79,6 +80,7 @@ body
   height: 55px;
   width: 150px;
   border-radius: 15px;
+  display: inline
 }
 .main2{
   background-color: #FFFFFF;
@@ -94,7 +96,6 @@ body
   width: 340px;
   height: 140px;
   border-radius: 25px;
-  border: 1px solid Grey;
 }
 .png img {
   min-height: 140px;
@@ -110,6 +111,7 @@ body
   display: flex;
 }
 .tg{
+  background-color: rgb(236, 247, 253);
   margin-left: 9px;
   margin-top: 9px;
   width: 160px;
@@ -124,7 +126,7 @@ body
   width: 160px;
   height: 160px;
   border-radius: 25px;
-  border: 1px solid Gray;
+  
 }
 
 .donate img {
@@ -164,7 +166,7 @@ body
   width: 160px;
   height: 160px;
   border-radius: 25px;
-  border: 1px solid Grey;
+  
 }
 .png2 img {
   min-height: 160px;
@@ -195,3 +197,40 @@ body
   border-radius: 10px;
   border:none;
 }
+.pd{
+  margin-top: 10px;
+  margin-left: 65px;
+  width: 20px;
+  height: 20px;
+}
+.pd img{
+  min-height: 20px;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  position: fixed;
+}
+.text3{
+  margin-left: 35px;
+  font-size: 15px;
+  color: rgb(0, 122, 255);
+}
+.profile{
+  margin-top: 10px;
+  margin-left: 65px;
+  width: 20px;
+  height: 20px;
+}
+.profile img{
+  min-height: 20px;
+  min-width: 20px;
+  width: 20px;
+  height: 20px;
+  position: fixed;
+}
+.text4{
+  margin-left: 44px;
+  font-size: 15px;
+  color: rgb(0, 122, 255);
+}
+
