@@ -1,111 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="styles.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-	<div class="wrapper">
-	  <div id="blockmain" class="blockmain">
-		
-		
-		
-	   <div id="square-image-container" class="container">
-		<img alt="square-image" src="ava.png" />
-	   </div>
-	   <div class = "textdiv">
-		 <div class = "textdiv2">
-		   <div id="text" class="text">MRAZIK</div>
-		 </div>
-		 <div class = "textdiv1">
-		   <div id="text1" class="text1">начинающий backend разработчик на python💸</div>
-		 </div>
-	   </div>
-	   
-	   
-	   
-	   
-	   
-	  </div>
-	  <div id="knopkabox" class="knopkabox">
-		<div class = "knopka" >
-		  <div class="pd">
-			<img src="po.png" class="background" />
-		  </div>
-		  <div class="textpd">
-		  <div id="text3" class="text3">поделится</div>
-		  </div>
-		</div>
-		
-		<div class = "knopka1" >
-		  <a href="https://t.me/vvsmnoy">
-		  <div class="profile">
-			<img src="profile.png" class="background" />
-		  </div>
-		  <div class="textprofile">
-			<div id="text4" class="text4">профиль</div>
-		  </div>
-		  </a>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlineSim Number Acquisition</title>
+</head>
+<body>
+  <h1>Получение номера через OnlineSim</h1>
+  <form method="post" action="api.php">
+    <label for="country">Страна:</label>
+    <select id="country" name="country">
+      <option value="ru">Россия</option>
+      <option value="us">США</option>
+      <option value="ua">Украина</option>
+      <option value="kz">Казахстан</option> <!-- Добавлен пример -->
+    </select><br><br>
 
-		</div>
-		
-	  </div>
-	  <div class = "main2" >
-		
-		
-		
-		<div class = "png" >
-		  <img src="img3.jpg" class="background" />
-		</div>
-		
-		
-		
-		<div class = "menu1">
-		  
-		  <div class = "tg">
-			
-			<div class = "icon">
-			  <img src="tg.jpg" class="background" />
-			</div>
-			<div id="text2" class="text2">MRAZIK prog...</div>
-			<a href="https://t.me/mrazikpython"><button type="button" class="button">View channel</button></a>
-		  </div>
-		  
-		  <div class = "donate">
-			<img src="img1.jpg" class="background" />
-	   	  </div>
-		  
-		</div>
-		
-		<div class="menu2">
-		  
-		  <div class="png2">
-			<img src="img2.jpg" class="background" />
-		  </div>
-		  
-		  <div class="project">
-			<video autoplay loop muted>
-			  <source src="video.mp4" type="video/mp4">
-			</source></video>
-		  </div>
-		  
-		</div>
-		<div class="prog">
-		  <div class= "prog1">
-			<div id="text5" class="text5">купить мои проекты</div>
-		  </div>
-		  <div class="prog2">
-			<div id="text5" class="text5">заказать верстку сайта</div>
-		  </div>
-		</div>
-		
-	  </div>
-	</div>
-	
-	
-	
-	
-	
-	
-  </body>
-</html>		
+    <label for="service">Сервис:</label>
+    <select id="service" name="service">
+      <option value="telegram">Telegram</option>
+      <option value="facebook">Facebook</option>
+      <option value="whatsapp">WhatsApp</option>
+      <option value="viber">Viber</option> <!-- Добавлен пример -->
+    </select><br><br>
+
+    <button type="submit">Получить номер</button>
+  </form>
+
+  <div id="result"></div>
+  <div id="cancel-button" style="display: none;">
+    <form method="post" action="api.php">
+      <input type="hidden" name="action" value="cancel">
+      <input type="hidden" id="numberId" name="numberId">
+      <button type="submit">Отменить номер</button>
+    </form>
+  </div>
+
+  <script>
+    const resultDiv = document.getElementById('result');
+    const form = document.querySelector('form');
+    const cancelButton = document.getElementById('cancel-button');
+    const numberIdInput = document.getElementById('numberId');
+
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      resultDiv.innerHTML = 'Запрос номера...';
+
+      try {
+        const formData = new FormData(form);
+        const response = await fetch('api.php', {
+          method: 'POST',
+          body: formData
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        if (data.success) {
+          if (data.id && data.number && data.service && data.country) {
+            numberIdInput.value = data.id;
+            cancelButton.style.display = 'block';
+            resultDiv.innerHTML = `
+              <p>Номер: ${data.number}</p>
+              <p>ID: ${data.id}</p>
+              <p>Сервис: ${data.service}</p>
+              <p>Страна: ${data.country}</p>
+              <p>Номер получен успешно.</p>
+            `;
+          } else {
+            resultDiv.innerHTML = '<p>Ошибка: Неполные данные от API.</p>';
+          }
+        } else {
+          resultDiv.innerHTML = `<p>Ошибка: ${data.error}</p>`;
+        }
+      } catch (error) {
+        resultDiv.innerHTML = `<p>Ошибка: ${error.message}</p>`;
+      }
+    });
+  </script>
+</body>
+</html>
+
