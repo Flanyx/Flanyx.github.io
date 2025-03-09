@@ -90,7 +90,8 @@ body
   border-top-right-radius: 35px;
   height: 2500px;
   width: 360px;
-  display: inline-block
+  display: inline-block;
+  overflow-y:auto;
 }
 .png{
   margin-left: 9px;
