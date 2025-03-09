@@ -186,6 +186,24 @@ body
   border-radius: 25px;
   border: 1px solid Grey;
 }
+.project video{
+  min-height: 160px;
+  min-width: 160px;
+  width: 160px;
+  height: 160px;
+  position: fixed;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.button1{
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(20, 161, 215);
+  border-radius: 10px;
+  border:none;
+}
 .text2{
   margin-top: 10px;
   margin-left: 23px;
