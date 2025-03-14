@@ -1,0 +1,164 @@
+
+.blob-icon, .blob-icon1, .group-icon {
+    max-width: 100%;
+    height: auto; /* Сохраняет пропорции */
+    object-fit: contain;
+    opacity: 0.8;
+}
+
+.group-child, .group-item, .group-inner, .rectangle-div {
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 10px; /* Уменьшаем радиус скругления для мобильных */
+    background-color: #fff;
+    border: 1px solid #eff0f6;
+    box-sizing: border-box;
+    margin: 10px; /* Добавляем отступы */
+}
+
+.group-child {
+    width: 100%; /* Занимает всю ширину */
+}
+
+.group-item, .group-inner, .rectangle-div {
+    width: calc(100% - 20px); /* Занимает всю ширину с учётом отступов */
+}
+
+
+.div1, .div2, .div3, .div4, .div5, .div6, .google {
+    width: auto; /* Ширина подстраивается под контент */
+    display: block; /* Делаем элементы блочными для лучшей адаптации */
+    margin-bottom: 10px; /* Добавляем отступы между элементами */
+}
+
+.line-div, .group-child1 {
+    border-top: 1px solid #eff0f6;
+    width: 100%; /* Занимает всю ширину */
+}
+
+.parent {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.primary-btn {
+    box-shadow: 0px 8px 22px rgba(74, 58, 255, 0.26);
+    border-radius: 20px; /* Уменьшаем радиус скругления */
+    background-color: #4a3aff;
+    width: calc(100% - 98px); /* Занимает почти всю ширину */
+    margin: 0px 49px;
+    height: auto; /* Автоматическая высота */
+    padding: 15px 20px; /* Уменьшаем отступы */
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    display: block; /* Делаем кнопку блочной */
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    /* Стиль для планшетов и меньших экранов */
+    .group-child {
+        padding: 10px; /* Дополнительные отступы */
+    }
+    .div1, .div2, .div3, .div4, .div5, .div6, .google {
+        font-size: 14px; /* уменьшаем размер шрифта */
+    }
+    .parent {
+        font-size: 14px;
+    }
+    .primary-btn {
+        width: calc(100% - 20px); /* Занимает почти всю ширину */
+        margin: 0 10px; /*Уменьшаем отступы */
+    }
+    .blob-icon, .blob-icon1 {
+        display: none; /* Скрываем blob-icons на маленьких экранах */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Стиль для смартфонов */
+    .div1, .div2, .div3, .div4, .div5, .div6, .google {
+        font-size: 12px; /* уменьшаем размер шрифта */
+    }
+    .parent {
+        font-size: 12px;
+    }
+}
+.div {
+    width: 100%;
+    box-shadow: 0px 6px 44px rgba(45, 33, 122, 0.1), 0px 2px 6px rgba(23, 15, 73, 0.16);
+    border-radius: 25px; /* Слегка уменьшаем радиус скругления */
+    background-color: #fff;
+    height: auto; /* Автоматическая высота */
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #6f6c90;
+    font-family: 'DM Sans';
+    padding: 20px; /* Добавляем отступы */
+    box-sizing: border-box; /* Чтобы отступы не влияли на общий размер */
+}
+
+.rectangle-group, .rectangle-container {
+    width: calc(100% - 40px); /* Ширина с учетом отступов */
+    margin: 0px 20px;
+    box-sizing: border-box;
+}
+
+.telegram, .b, .b1, .inner {
+    width: 100%; /* Занимает всю ширину */
+    text-align: center; /* Центрируем текст */
+}
+
+
+.img-20250314-121209-020-1-icon {
+    max-width: 100%;
+    height: auto; /* Сохраняет пропорции */
+    object-fit: cover;
+}
+
+.group-container {
+    width: calc(100% - 100px); /* Ширина с учетом отступов */
+    margin: 0px 50px;
+    box-sizing: border-box;
+}
+
+.container {
+    font-size: 34px;
+    color: #008cff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+    /* Стиль для планшетов и меньших экранов */
+    .div {
+        font-size: 16px; /* Уменьшаем размер шрифта */
+    }
+    .container {
+        font-size: 24px; /* Уменьшаем размер шрифта */
+    }
+    .inner {
+        font-size: 24px;
+    }
+    .img-20250314-121209-020-1-icon {
+        display: block;
+        margin: 0 auto; /* Центрируем картинку */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Стиль для смартфонов */
+    .div {
+        font-size: 14px; /* Уменьшаем размер шрифта */
+    }
+    .container {
+        font-size: 18px; /* Уменьшаем размер шрифта */
+    }
+    .inner {
+        font-size: 18px;
+    }
+}
