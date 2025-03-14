@@ -1,0 +1,352 @@
+.blob-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 921px;
+    height: 921px;
+    object-fit: contain;
+    opacity: 0.8;
+}
+.blob-icon1 {
+    position: absolute;
+    top: 533.97px;
+    left: 673.03px;
+    width: 921px;
+    height: 921px;
+    object-fit: contain;
+    opacity: 0.8;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 54px 54px rgba(74, 58, 255, 0.02), 1px 4px 104px rgba(20, 20, 43, 0.04), 0px 98px 66px rgba(19, 18, 66, 0.02);
+    border-radius: 34px;
+    background-color: #fff;
+    width: 546px;
+    height: 731.9px;
+}
+.group-item {
+    position: absolute;
+    top: 108.34px;
+    left: 49px;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+    background-color: #fff;
+    border: 1px solid #eff0f6;
+    box-sizing: border-box;
+    width: 446px;
+    height: 65.8px;
+}
+.div1 {
+    position: absolute;
+    top: 129.89px;
+    left: 69px;
+    line-height: 20px;
+    display: inline-block;
+    width: 232px;
+    height: 19.9px;
+}
+.div2 {
+    position: absolute;
+    top: 70.45px;
+    left: 49px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #170f49;
+    display: inline-block;
+    width: 232px;
+    height: 19.9px;
+}
+.group-inner {
+    position: absolute;
+    top: 244.94px;
+    left: 49px;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+    background-color: #fff;
+    border: 1px solid #eff0f6;
+    box-sizing: border-box;
+    width: 446px;
+    height: 65.8px;
+}
+.div3 {
+    position: absolute;
+    top: 266.48px;
+    left: 69.72px;
+    line-height: 20px;
+    display: inline-block;
+    width: 67px;
+    height: 19.9px;
+}
+.div4 {
+    position: absolute;
+    top: 208.06px;
+    left: 49px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #170f49;
+    display: inline-block;
+    width: 67px;
+    height: 19.9px;
+}
+.div5 {
+    position: absolute;
+    top: 428.3px;
+    left: 186px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 171px;
+    height: 17.9px;
+}
+.div6 {
+    position: absolute;
+    top: 0px;
+    left: 206.54px;
+    line-height: 18px;
+    display: inline-block;
+    width: 30px;
+    height: 17.9px;
+}
+.line-div {
+    position: absolute;
+    top: 8.97px;
+    left: 0px;
+    border-top: 1px solid #eff0f6;
+    box-sizing: border-box;
+    width: 181px;
+    height: 1px;
+}
+.group-child1 {
+    position: absolute;
+    top: 8.97px;
+    left: 264.51px;
+    border-top: 1px solid #eff0f6;
+    box-sizing: border-box;
+    width: 181px;
+    height: 1px;
+}
+.parent {
+    position: absolute;
+    top: 480.43px;
+    left: 50.42px;
+    width: 444.5px;
+    height: 17.9px;
+    text-align: center;
+    font-size: 16px;
+}
+.button-text {
+    position: relative;
+    line-height: 20px;
+}
+.primary-btn {
+    position: absolute;
+    top: 339.37px;
+    left: 49px;
+    box-shadow: 0px 8px 22px rgba(74, 58, 255, 0.26);
+    border-radius: 86px;
+    background-color: #4a3aff;
+    width: 444px;
+    height: 66.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 46px;
+    background-color: #fff;
+    border: 1px solid #eff0f6;
+    box-sizing: border-box;
+    width: 446px;
+    height: 65.8px;
+}
+.google {
+    position: absolute;
+    top: 0.66px;
+    left: 41.37px;
+    line-height: 20px;
+    white-space: pre-wrap;
+}
+.group-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 23.6px;
+    height: 24.1px;
+}
+.google-parent {
+    position: absolute;
+    top: 21.03px;
+    left: 69px;
+    width: 307.4px;
+    height: 24.1px;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 446px;
+    height: 65.8px;
+}
+.telegram {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 20px;
+    display: inline-block;
+    width: 262px;
+    height: 19.9px;
+}
+.telegram-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 262px;
+    height: 19.9px;
+}
+.group-wrapper {
+    position: absolute;
+    top: 22.79px;
+    left: 112px;
+    width: 262px;
+    height: 19.9px;
+}
+.rectangle-container {
+    position: absolute;
+    top: 77.61px;
+    left: 0px;
+    width: 446px;
+    height: 65.8px;
+}
+.social-icons {
+    position: absolute;
+    top: 99.12px;
+    left: 66px;
+    width: 28px;
+    height: 27px;
+    overflow: hidden;
+}
+.group-container {
+    position: absolute;
+    top: 532.78px;
+    left: 50px;
+    width: 446px;
+    height: 143.4px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 86.1px;
+    left: 13px;
+    width: 546px;
+    height: 731.9px;
+}
+.b {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 46px;
+    display: inline-block;
+    width: 571px;
+    height: 45.9px;
+}
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 571px;
+    height: 45.9px;
+    text-align: center;
+    font-size: 34px;
+    color: #008cff;
+}
+.group-parent {
+    position: absolute;
+    top: 470.57px;
+    left: 534.67px;
+    width: 571px;
+    height: 818px;
+}
+.wrapper {
+    position: absolute;
+    top: -69.57px;
+    left: -280.67px;
+    width: 1594.1px;
+    height: 1455px;
+}
+.span {
+    color: #000;
+}
+.span1 {
+    color: #008cff;
+}
+.b1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    line-height: 46px;
+    display: inline-block;
+}
+.frame {
+    position: absolute;
+    height: 60.15%;
+    width: 62.23%;
+    top: 29.38%;
+    right: 0%;
+    bottom: 10.46%;
+    left: 37.77%;
+}
+.img-20250314-121209-020-1-icon {
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    width: 195px;
+    height: 194px;
+    object-fit: cover;
+}
+.group-div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.inner {
+    position: absolute;
+    height: 13.94%;
+    width: 35.49%;
+    top: 12.72%;
+    right: 32.29%;
+    bottom: 73.35%;
+    left: 32.22%;
+    font-size: 34px;
+    color: #170f49;
+}
+.div {
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 6px 44px rgba(45, 33, 122, 0.1), 0px 2px 6px rgba(23, 15, 73, 0.16);
+    border-radius: 50px;
+    background-color: #fff;
+    height: 1392px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #6f6c90;
+    font-family: 'DM Sans';
+}
+
